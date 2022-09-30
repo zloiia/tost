@@ -5,7 +5,7 @@ setup(
     version='0.0.6',
     packages=[
         'dap_classifier_data',
-        'dap_classifier_data.*',
+        'dap_classifier_data.models',
         ],
     url='https://45.89.26.185:8081/class_dap_classifier/shared_data',
     license='MIT',
