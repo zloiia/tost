@@ -1,12 +1,9 @@
-from distutils.core import setup
+from distutils.core import setup, find_packages
 
 setup(
     name='dap_classifier_data',
     version='0.0.7',
-    packages=[
-        'dap_classifier_data',
-        'dap_classifier_data.models',
-        ],
+    packages=find_packages(),
     url='https://45.89.26.185:8081/class_dap_classifier/shared_data',
     license='MIT',
     author='d.fedin',
