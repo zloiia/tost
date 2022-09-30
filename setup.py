@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='dap_classifier_data',
-    version='0.0.6',
+    version='0.0.7',
     packages=[
         'dap_classifier_data',
         'dap_classifier_data.models',
